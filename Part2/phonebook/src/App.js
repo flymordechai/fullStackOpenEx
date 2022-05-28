@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+
 import personService from './services/persons'
 import Notification from './Notification'
 import PersonForm from './PersonForm'
@@ -16,7 +17,7 @@ const App = () => {
   useEffect(() => {
     console.log('effect')
     axios
-      .get('http://localhost:3001/api/persons')
+      .get('http://localhost:3001/persons')
       .then(response => {
         console.log('promise fulfilled')
         setPersons(response.data)
