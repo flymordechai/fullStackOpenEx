@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ4eCIsImlkIjoiNjJhOTc5YmEyYjc4YTcxOTBhNjE0MzNjIiwiaWF0IjoxNjU1Mjk2OTU4fQ.M1lqpq4Ye72NXca5zTG1YJdhgDrA1zDZr_4UMXsxjKg
+
+{
+    "title": "121212",
+    "author": "121212",
+    "url": "121212.net",
+    "likes": 22,
+    "userId": "62a8210e7f0272de5dd08a44"
+}
